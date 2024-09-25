@@ -1,22 +1,24 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 import Navbar from './pages/Navbar'
-import Header from './pages/Header'
+
+import Portfolio from './pages/Portfolio'
 import AboutMe from './pages/aboutMe'
+import Testimonials from './pages/Testimonials'
+import Skill from './pages/Skill'
+import Home from './pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <div>
-  <BrowserRouter>
+  
   <Navbar/>
-  <Routes>|
-   <Route path='/'element={<Header/>}/>
-   <Route path='/aboutMe'element={<AboutMe/>}/>
-   </Routes>
-  </BrowserRouter>
+   <Home/>
+   <Skill/>
+   <AboutMe/>
+   <Portfolio/>
+   <Testimonials/>
       </div>      
     </>
   )
