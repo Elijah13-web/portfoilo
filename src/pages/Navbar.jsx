@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-   <header className='fixed top-0 left-0 right-0 z-50  bg-[#f5fcffaa]'>
+   <header className='fixed top-0 left-0 right-0 z-50  bg-slate-300'>
     <Wrapper>
     <div>
     <nav className='flex justify-between items-center md:py-2 py-2 mx-3'>

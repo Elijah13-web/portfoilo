@@ -8,7 +8,7 @@ import Wrapper from '../components/Wrapper'
 
 const Footer = () => {
   return (
-   <div className='bg-[#f5fcff88] '>
+   <div className='bg-slate-300 '>
     <Wrapper>
      <div className='py-8'>
         <div className='flex md:justify-between text-center flex-col justify-center md:flex-row'>
@@ -22,10 +22,10 @@ const Footer = () => {
           <h1 className='font-bold'>Home</h1>
           <h1 className='font-bold'>My Skills</h1>
           <h1 className='font-bold'>Portfolio</h1>
-          <h1 className='font-bold'>About Me</h1>
+          <h1 className='font-bold'>About Me</h1> 
           <h1 className='font-bold'>Testimonials</h1>
         </div>
-        <div className='flex w-5 md:mx-16 justify-center mx-auto items-center gap-2'>
+        <div className='flex w-5 md:mx-16 justify-center mx-auto items-center gap-2 pt-5'>
             <img src={face} alt='book'/>
             <img src={ig}alt='ig'/>
             <img src={twitter} alt='twitter'/>
