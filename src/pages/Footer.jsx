@@ -8,7 +8,7 @@ import Wrapper from '../components/Wrapper'
 
 const Footer = () => {
   return (
-   <div className='bg-[#f5fcffce] '>
+   <div className='bg-[#f5fcff88] '>
     <Wrapper>
      <div className='py-8'>
         <div className='flex md:justify-between text-center flex-col justify-center md:flex-row'>
