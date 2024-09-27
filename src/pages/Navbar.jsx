@@ -17,14 +17,15 @@ const Navbar = () => {
   };
 
   return (
-   <Wrapper>
+   <header className='fixed top-0 left-0 right-0 z-50  bg-[#f5fcffce]'>
+    <Wrapper>
     <div>
     <nav className='flex justify-between items-center md:py-2 py-2 mx-3'>
         <div className='flex items-center '>
-        <div className=''>
+        <a href='/' className=''>
           <img src={logo} alt='logo' className='w-8 h-7' />
-        </div>
-        <h1 className='ml-2 font-bold'>ElijahWeb</h1>
+        </a>
+        <h1 className='ml-2 font-bold'>ElijahWeb,</h1>
         </div>
         <div
               onClick={onToggleMenu}
@@ -67,6 +68,7 @@ const Navbar = () => {
 
    </div>
    </Wrapper>
+   </header>
   );
 }
 

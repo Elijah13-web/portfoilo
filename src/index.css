@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.scroll-smooth {
+    scroll-behavior: smooth;
+  }
+html {
+  scroll-behavior: smooth;
+}
+  

@@ -5,7 +5,7 @@ import face from "../assets/images/elijah.jpg"
 
 const Home = () => {
   return (
-   <div className='bg-[#1c1e5352] '>
+   <div className='bg-[#f5fcffce] '>
     <Wrapper>
     <div className='flex flex-col lg:flex-row gap-10 py-8'>
       <div className='bottom-24 top-28 lg:py-20 p-6'>
@@ -13,8 +13,8 @@ const Home = () => {
         <p className='text-center md:text-start my-2'>A fullstack Software Developer.</p>
         <h1 className='md:text-4xl text-2xl font-bold text-center md:text-start'>I develop dynamic and User-Centered Web  Applications.</h1>
         <p className='py-3 text-[#1C1E53] lg:w-[700px] text-center md:text-start w-full '>My expertise spans both front-end and back-end development, enabling me to build comprehensive solutions that meet diverse client needs.</p>
-        <div className='bg-nav w-28 rounded-xl hover:border py-2 text-center '>
-        <div className=' text-[#FFFFFF]'>Get in Touch</div>
+        <div className='bg-nav lg:w-28 rounded-xl hover:border py-2 text-center justify-center lg:justify-between'>
+        <div className=' text-[#FFFFFF] '>Get in Touch</div>
       </div>
       </div>
       <div>
