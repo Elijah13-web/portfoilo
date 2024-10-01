@@ -64,7 +64,7 @@ const Contact = () => {
                   placeholder="Write your message here"
                   required
                   rows="4"
-                  className="lg:w-[800px] w-full pl-5 max-h-56 py-3 border border-gray-800 rounded-lg text-xl"
+                  className="lg:w-[780px] w-full pl-5 max-h-56 py-3 border border-gray-800 rounded-lg text-xl"
                 />
               </div>
 
