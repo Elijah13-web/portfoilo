@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { FaCheckSquare, FaRegSquare } from 'react-icons/fa'; // Import the check and unchecked icons
 import Wrapper from '../components/Wrapper';
@@ -92,5 +93,4 @@ const Contact = () => {
     </Wrapper>
   );
 }
-
 export default Contact;

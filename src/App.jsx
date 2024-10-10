@@ -4,8 +4,9 @@ import AboutMe from './pages/aboutMe';
 import Testimonials from './pages/Testimonials';
 import Skill from './pages/Skill';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 import Footer from './pages/Footer';
-import Contact from './pages/contact';
+
 
 function App() {
 

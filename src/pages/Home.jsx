@@ -9,10 +9,10 @@ const Home = () => {
         {/* Background image with reduced opacity */}
         <div 
           className='relative  gap-10 md:pt-64 bg-cover bg-center bg-no-repeat'
-          style={{ backgroundImage: `url(${face})`, opacity: 0.9 }}
+          style={{ backgroundImage: `url(${face})`, opacity: 10 }}
         >
           {/* Overlay that contains text */}
-          <div className="absolute inset-0 bg-black bg-opacity-30"></div> {/* Optional dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Optional dark overlay for better text readability */}
           <div className='relative z-10 flex flex-col lg:flex-row gap-10 '>
             <div className='bottom-24 top-28 lg:py-20 p-10 text-white '>
               <h1 className='text-2xl font-semibold text-center md:text-start'>
