@@ -5,7 +5,9 @@ import Wrapper from '../components/Wrapper'
 
 const Testimonials = () => {
   return (
-   <div className='bg-[#f5fcffce] pb-8'>
+
+<section id="testimonials">
+<div className='bg-[#f5fcffce] pb-8'>
      <Wrapper>
       <div className='pt-12 font-[Roboto] p-2'>
           <div>
@@ -50,6 +52,8 @@ const Testimonials = () => {
       </div>
     </Wrapper>
    </div>
+</section>
+   
   )
 }
 

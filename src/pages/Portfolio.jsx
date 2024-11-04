@@ -9,7 +9,9 @@ import arrow from "../assets/icons/Vector (15).png"
 const Portfolio = () => {
   return (
    <Wrapper>
-     <div>
+     
+<section id="portfolio">
+<div>
        <div className="">
       <h2 className='font-bold text-center md:text-start'>Recent Projects</h2>
       <div className='flex justify-between flex-col md:flex-row'>
@@ -54,8 +56,11 @@ const Portfolio = () => {
     </div>
    
     </div>
+</section>
+
    </Wrapper>
   )
 }
 
 export default Portfolio
+
