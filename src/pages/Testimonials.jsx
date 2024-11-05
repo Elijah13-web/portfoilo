@@ -14,7 +14,7 @@ const Testimonials = () => {
       <div className='pt-12 font-[Roboto] p-2'>
           <div>
             <h2 className='font-bold'>Clients Feedback</h2>
-            <h1 className='text-4xl font-bold py-4'>Customer testimonials</h1>
+            <h1 className='md:text-4xl text-2xl font-bold py-4'>Customer testimonials</h1>
           </div>
         <div className='grid lg:grid-cols-3 md:grid-cols-2  pt-10 gap-5'>
         <div className=' border border-[#006B6A] rounded-md p-5 h-[270px]'>
