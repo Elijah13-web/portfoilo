@@ -19,12 +19,12 @@ const Skill = () => {
             <div className='border bg-[#F5FCFF] rounded-xl p-5 w-full lg:w-70 h-56 hover:bg-slate-300 my-7 text-center lg:text-start'>
                 <img src={phone} alt='phone' className='border bg-slate-50 rounded-2xl py-2 p-1 mx-auto lg:mx-0'/>
                 <h1 className='text-xl 2xl:text-xl font-bold'>Responsive Design</h1>
-                <p className='font-bold text-2xl'>85%</p>
+                <p className='font-bold text-2xl'>80%</p>
             </div>
             <div className='border bg-[#F5FCFF] rounded-xl p-5 w-full lg:w-70 h-56 hover:bg-slate-300 my-7 text-center lg:text-start'>
                 <img src={branding} alt='logo' className='border bg-slate-50 rounded-2xl py-2 p-1 h-16 mx-auto lg:mx-0 '/>
                 <h1 className='text-xl 2xl:text-xl font-bold'>Front-End Frameworks</h1>
-                <p className='font-bold text-2xl'>70%</p>
+                <p className='font-bold text-2xl'>85%</p>
             </div>
             <div className='border bg-[#F5FCFF] rounded-xl p-5 w-full lg:w-70 h-56 hover:bg-slate-300 my-7 text-center lg:text-start'>
                 <img src={ui} alt='ux' className='border bg-slate-50 rounded-2xl py-2 p-1 h-16 mx-auto lg:mx-0'/>

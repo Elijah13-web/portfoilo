@@ -14,7 +14,7 @@ const AboutMe = () => {
   </div>
   <div className='md:my-24 text-center md:text-start'>
     <h1 className='text-2xl font-bold'>About Me </h1>
-    <p className='text-[#1C1E53] font-[Roboto] lg:w-[600px] md:w-[400px]'>My name is Elijah Ajiboye. <b/> <b>I am a Full-stack Developer</b>, a ptoduct of Tech studio academy, and i have been a full stack developer for more than six months now . </p>
+    <p className='text-[#1C1E53] font-[Roboto] lg:w-[600px] md:w-[400px]'>My name is Elijah Ajiboye. <b/> <b>I am a Full-stack Developer</b>, a product of Tech studio academy, and i have been a full stack developer for more than 6 months now , and have worked with Designers and other Developers on some projects. <br />Techstudio Academy prepared me adequately to face the challenges of navigating through the world of software development. </p>
   </div>
 </div>
 </div>
