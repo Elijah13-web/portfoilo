@@ -12,7 +12,7 @@ const Portfolio = () => {
      
 <section id="portfolio">
 <div>
-       <div className="">
+       <div className="my-12">
       <h2 className='font-bold text-center md:text-start'>Recent Projects</h2>
       <div className='flex justify-between flex-col md:flex-row'>
       <h1 className='text-[#282938] font-[Roboto] md:text-4xl text-2xl font-bold text-center py-2'>My Portfoilo</h1>

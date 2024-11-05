@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
 
 <section id="testimonials">
-<div className='bg-[#f5fcffce] pb-8'>
+<div className='bg-[#f5fcffce] pb-8 my-14'>
      <Wrapper>
       <div className='pt-12 font-[Roboto] p-2'>
           <div>
