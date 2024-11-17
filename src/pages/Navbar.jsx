@@ -43,7 +43,7 @@ const Navbar = () => {
               <a href="#about" className='font-bold'>About Me</a>
               <a href="#testimonials" className='font-bold'>Testimonials</a>
               <div className='w-2 lg:w-36'>
-                <img src={col} alt='colu' />
+                <img src={col} alt='colu'/>
               </div>
               <a href="#contact" className='border-nav border rounded-md p-2 hover:bg-[#5f3bee62]'>
                 <button className='text-nav'>Contact Me</button>
@@ -54,6 +54,7 @@ const Navbar = () => {
           {menuOpen && (
             <div className='flex flex-col md:hidden space-y-2 p-4 bg-white border border-gray-300 rounded-md'>
               <h1 className='font-bold'><a href="#home">Home</a></h1>
+              <a href="#skills" className='font-bold'>My Skills</a>
               <h1 className='font-bold'><a href="#portfolio">Portfolio</a></h1>
               <h1 className='font-bold'><a href="#about">About Me</a></h1>
               <h1 className='font-bold'><a href="#testimonials">Testimonials</a></h1>

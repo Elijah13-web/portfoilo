@@ -38,7 +38,7 @@ const Portfolio = () => {
         <img src={dash} alt='dash' className=' w-[440px] h-[300px] rounded-2xl'/>
         <h1 className='text-2xl  font-bold '>Mortgage Calculator</h1>
         <p className='py-2'>Input your mortgage information and see monthly repayment and total repayment amounts after submitting the form.</p>
-        <a href='https://github.com/Elijah13-web/mortgage-calculator' className='flex hover:border lg:w-48 hover:bg-slate-100 rounded-xl px-3 justify-center lg:justify-between'>
+        <a href='https://mortgage-calculator-wheat.vercel.app/' className='flex hover:border lg:w-48 hover:bg-slate-100 rounded-xl px-3 justify-center lg:justify-between'>
         <h1 className='font-bold text-xl'>View Website</h1>
         <img src={arrow} alt='arro' className='p-2 py-2'/>
         </a>
@@ -47,7 +47,7 @@ const Portfolio = () => {
       <div className='border rounded-xl p-2 font-[Roboto] '>
         <img src={card} alt='dash' className='h-[300px] rounded-2xl'/>
         <h1 className='text-2xl font-bold'>Card-details</h1>
-        <p className='py-2'> Fill in the interactive card details form and submmit, to get your card-details. </p>
+        <p className='py-2'> Fill in the interactive card details form and submit, to get your card-details. </p>
         <a href=' https://card-details-seven.vercel.app/' className='flex hover:border lg:w-48 hover:bg-slate-100 rounded-xl px-3 justify-center lg:justify-between'>
         <h1 className='font-bold text-xl'>View Website</h1>
         <img src={arrow} alt='arro' className='p-2 py-2'/>
