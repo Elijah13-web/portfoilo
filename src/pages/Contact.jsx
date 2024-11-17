@@ -124,15 +124,17 @@ const Contact = () => {
                   {errors.message && <p className="text-red-500">{errors.message}</p>}
                 </div>
 
-                <div className='w-[200px] pb-4 text-[#282938] flex items-center cursor-pointer' onClick={handleCheckboxClick}>
+               <div>
+               <div className='w-[200px] pt-4 text-[#282938] flex items-center cursor-pointer' onClick={handleCheckboxClick}>
                   {isChecked ? (
-                    <FaCheckSquare className="text-green-500" />
+                    <FaCheckSquare className="text-[#5E3BEE]" />
                   ) : (
                     <FaRegSquare className="text-gray-500" />
                   )}
                   <h1 className='px-3'>I accept the terms</h1>
                 </div>
-                {errors.terms && <p className="text-red-500">{errors.terms}</p>}
+                {errors.terms && <p className="text-red-500 pb-5">{errors.terms}</p>}
+               </div>
 
                 <div className="justify-center">
                   <button
