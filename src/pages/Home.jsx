@@ -1,6 +1,6 @@
 import React from 'react';
 import Wrapper from '../components/Wrapper';
-import face from "../assets/images/elijah.jpg";
+import face from "../assets/images/WhatsApp Image 2025-03-05 at 09.12.40_8937af36.jpg";
 
 const Home = () => {
   return (
@@ -20,14 +20,14 @@ const Home = () => {
       <p className='py-3 lg:w-[500px] text-center md:text-start w-full'>
         My expertise spans both front-end and back-end development, enabling me to build comprehensive solutions that meet diverse client needs.
       </p>
-      <div className='bg-nav md:w-28 rounded-xl hover:border py-2 text-center justify-center lg:justify-between'>
-        <div className=' text-[#FFFFFF] '>Get in Touch</div>
+      <div className='bg-nav md:w-28 rounded-xl hover:border py-2 text-center justify-center lg:justify-between curpo'>
+        <a href="#contact" className=' text-[#FFFFFF] '>Get in Touch</a>
       </div>
     </div>
   </div>
 
   <div className='md:py-12'>
-    <img src={face} alt='face' className='w-[600px] h-[350px] rounded-3xl'/>
+    <img src={face} alt='face' className='w-[650px] h-[350px] rounded-3xl'/>
   </div>
 
 </div> 

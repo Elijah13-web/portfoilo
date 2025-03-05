@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from '../components/Wrapper'
 import git from "../assets/icons/mdi_github (1).png"
-import dash from  "../assets/images/desktop-design-empty.jpg"
+import dash from  "../assets/images/2149856264 1.png"
 import home from "../assets/images/Hero section (2).png"
 import card from "../assets/images/desktop-design.jpg"
 import arrow from "../assets/icons/Vector (15).png"
@@ -36,9 +36,9 @@ const Portfolio = () => {
    
       <div className='border rounded-xl p-2 font-[Roboto] '>
         <img src={dash} alt='dash' className=' w-[440px] h-[300px] rounded-2xl'/>
-        <h1 className='text-2xl  font-bold '>Mortgage Calculator</h1>
-        <p className='py-2'>Input your mortgage information and see monthly repayment and total repayment amounts after submitting the form.</p>
-        <a href='https://mortgage-calculator-wheat.vercel.app/' className='flex hover:border lg:w-48 hover:bg-slate-100 rounded-xl px-3 justify-center lg:justify-between'>
+        <h1 className='text-2xl  font-bold '>HealthyYou</h1>
+        <p className='py-2'>Connect with certified doctors for personalized consulatations from the comfort of your home.</p>
+        <a href='https://healthy-you-lovat.vercel.app/' className='flex hover:border lg:w-48 hover:bg-slate-100 rounded-xl px-3 justify-center lg:justify-between'>
         <h1 className='font-bold text-xl'>View Website</h1>
         <img src={arrow} alt='arro' className='p-2 py-2'/>
         </a>
